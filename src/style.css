@@ -14,12 +14,12 @@ ul {
 #clean_button {
   position: fixed;
   top: 10pt;
-  right: 20pt;
+  right: 10pt;
   z-index: 2;
   border: none;
   cursor: pointer;
   background: no-repeat;
-  opacity: 0.45;
+  opacity: 0.75;
 }
 
 #keywords_area {
@@ -56,7 +56,16 @@ a:hover {
   cursor: pointer;
   background: no-repeat;
   font-size: medium;
-  width: 45pt;
+  margin-top: 5pt;
+  width: 40pt;
+  height: 40pt;
+  border-radius: 20pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadada;
+  border: 1px solid #cfcfcf;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
 }
 
 #results_area {
