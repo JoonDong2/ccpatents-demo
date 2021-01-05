@@ -245,19 +245,20 @@ color_inner_gray {
   height: 25pt;
   margin-top: 2pt;
   font-size: large;
-  color: #6e6e6e;
-  font-weight: bold;
-  border: 2pt solid #bbbaba;
-  background-image: linear-gradient(80deg, #cfcfcf, #dfdfdf);
+  color: #333;
+  border: 1px solid #eee;
+  background-color: #fff;
   border-radius: 1rem;
   cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #generate_button.button:active {
   margin-top: 4pt;
   margin-left: 2pt;
-  border: 2pt solid #bbbaba;
-  background-image: linear-gradient(80deg, #cfcfcf, #dfdfdf);
+  border: 1px solid #eee;
+  background-color: #efefef;
+  box-shadow: 0;
 }
 
 #patents_search_button.button {
@@ -265,19 +266,19 @@ color_inner_gray {
   height: 25pt;
   margin-top: 2pt;
   font-size: large;
-  color: #478045;
-  font-weight: bold;
-  border: 2pt solid #85b883;
-  background-image: linear-gradient(260deg, #94c992, #aed8ac);
+  color: #333;
+  border: 1px solid #eaeaea;
+  background-color: #eeeeee;
   border-radius: 1rem;
   cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 #patents_search_button.button:active {
   margin-top: 4pt;
   margin-left: 2pt;
-  border: 2pt solid #85b883;
-  background-image: linear-gradient(260deg, #94c992, #aed8ac);
+  border: 1px solid #eaeaea;
+  background-color: #e7e7e7;
 }
 
 #desc_area {
