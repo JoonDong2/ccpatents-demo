@@ -70,7 +70,7 @@ a:hover {
 
 #results_area {
   display: grid;
-  grid-template-columns: 1fr 160px 1fr;
+  grid-template-columns: 1fr 1fr;
   margin: 10pt 4pt auto;
   height: 60%;
 }
