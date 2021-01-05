@@ -292,8 +292,7 @@ color_inner_gray {
 }
 
 #desc_area {
-  position: fixed;
-  width: 95%;
+  width: 100%;
   cursor: default;
   color: #292929
 }
