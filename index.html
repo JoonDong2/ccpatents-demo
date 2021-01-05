@@ -18,7 +18,7 @@
 	<link rel="stylesheet" href="src/jquery.multibutton.css">
 </head>
 
-<body style="margin: 0;">
+<body style="margin: 0;" onload="onLoad()">
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 	<script src="src/jquery-1.11.1.min.js"></script>
 	<script src="src/jquery-ui.min.js"></script>
@@ -145,9 +145,9 @@
 	</div>
 
 	<script>
-		setTimeout(() => {
+		function onLoad() {
 			(adsbygoogle = window.adsbygoogle || []).push({});
-		}, 500)
+		}
 	</script>
 </div>
 </body>
