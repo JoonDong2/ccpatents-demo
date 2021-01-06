@@ -20,6 +20,7 @@ ul {
   cursor: pointer;
   background: no-repeat;
   opacity: 0.75;
+  display: none;
 }
 
 #keywords_area {
@@ -66,6 +67,7 @@ a:hover {
   background-color: #dadada;
   border: 1px solid #cfcfcf;
   box-shadow: 0 3px 6px rgba(0,0,0,0.2), 0 3px 6px rgba(0,0,0,0.25);
+  display: none;
 }
 
 #results_area {
@@ -179,6 +181,7 @@ color_inner_gray {
   background: transparent;
   padding: 10px !important;
   margin: 0 !important;
+  resize: none;
   overflow: auto !important;
 }
 
@@ -297,7 +300,16 @@ color_inner_gray {
 #desc_area {
   width: 100%;
   cursor: default;
-  color: #292929
+  color: #292929;
+  display: none;
+}
+
+#links a {
+  color: #333 !important;
+}
+
+#links a:hover {
+  color: #007FFF !important;
 }
 
 /* 동의어 리스트 체크박스 */
