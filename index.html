@@ -50,6 +50,13 @@
 	</div>
 </div>
 
+<div id="banner" style="margin-top: 15pt; min-height: 90px; width: 100%; display: flex; justify-content: center; align-items: center; display: none;">
+	<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-5801196273760006"
+     data-ad-slot="5801835870"></ins>
+</div>
+
 <p id="links_title" style="margin: 15pt 10px 10px; font-weight: bold; color: #666;">특허 검색 관련 링크</p>
 <ol id="links" style="margin: 0 10px;">
 	<li><a href="https://blog.naver.com/ccpatents/221653359017" target="_blank">주요 국가의 특허검색 사이트 & 추천팁!</a></li>
@@ -71,13 +78,6 @@
 	<li><a href="https://blog.naver.com/ccpatents/221802788410" target="_blank">'자석 필터 마스크' 특허 검색 따라하기 [CCPatents 사용법]</a></li>
 	<li><a href="https://blog.naver.com/ccpatents/221828543144" target="_blank">내가 직접 특허 출원을? [CCPatents]</a></li>
 </ol>
-
-<div id="banner" style="margin-top: 15pt; min-height: 90px; width: 100%; display: flex; justify-content: center; align-items: center; display: none;">
-	<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
-     data-ad-client="ca-pub-5801196273760006"
-     data-ad-slot="5801835870"></ins>
-</div>
 
 <div id="desc_area" style="margin-top: 10pt;">
 	<div style="display:flex; align-items:center; justify-content:center;margin-bottom:20px">
@@ -162,8 +162,9 @@
 </div>
 <script>
 	var bannerTimer = setTimeout(() => {
-		(adsbygoogle = window.adsbygoogle || []).push({});
-	}, 3000)
+    document.getElementById("banner").style.display="flex";
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  }, 3000)
 </script>
 </body>
 
