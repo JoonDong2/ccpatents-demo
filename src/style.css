@@ -99,41 +99,6 @@ a:hover {
   transform: translateZ(0);
 }
 
-.backdrop {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  white-space: pre-wrap;
-  word-break: break-all !important;
-  background: transparent;
-  pointer-events: none;
-  overflow: auto !important;
-  -ms-overflow-style: none;
-}
-
-.backdrop::-webkit-scrollbar {
-  display:none;
-}
-
-.highlights {
-  height: 96%;
-  word-wrap: normal;
-  font-family: 'Noto Sans KR', sans-serif !important;
-  color: transparent;
-  border: 1px solid transparent !important;
-  background: transparent;
-  font-size: 20px !important;
-  padding: 10px !important;
-  position: absolute;
-  top: 0;
-  overflow: auto !important;
-  -ms-overflow-style: none;
-}
-
-.highlights::-webkit-scrollbar {
-  display:none;
-}
-
 marka {
   color: transparent;
   opacity: 0.7;
