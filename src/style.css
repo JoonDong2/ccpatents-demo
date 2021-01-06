@@ -24,7 +24,7 @@ ul {
 }
 
 #keywords_area {
-  display: grid;
+  display: none;
   grid-template-columns: 7fr 520pt 5fr;
 }
 
